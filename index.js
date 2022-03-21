@@ -29,7 +29,7 @@ gsap.to ('div.philosophy1', {
 		trigger: 'div.philosophy1',
 		toggleActions: 'restart pause restart pause'
 	},
-	x:30,
+	x:10,
 	duration: 3,
 })
 
@@ -38,7 +38,7 @@ gsap.to ('div.philosophy2', {
 		trigger: 'div.philosophy2',
 		toggleActions: 'restart pause restart pause'
 	},
-	x:-55,
+	x:-10,
 	duration: 2,
 })
 
