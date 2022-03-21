@@ -1,0 +1,110 @@
+@font-face {
+	font-family: newyork;
+	src: url(NewYork.otf);
+}
+
+body {
+	background: #E7DFD3;
+
+}
+
+.icon {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 200%;
+	margin: 60px;
+}
+
+.icon a {
+	color: #8C3D20;
+}
+
+.text {
+	font-family: newyork;
+	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.branding a {
+	color: #260101;
+	text-decoration: none;
+	font-size: 60px;
+	line-height: 250%;
+}
+
+.branding a:hover {
+	color: #8C3D20;
+	font-size: 65px;
+	transition: 0.3s all ease-in-out;
+}
+
+.illustrations a {
+	color: #260101;
+	text-decoration: none;
+	font-size: 60px;
+	line-height: 250%;
+}
+
+.illustrations a:hover {
+	color: #8C3D20;
+	font-size: 65px;
+	transition: 0.3s all ease-in-out;
+}
+
+.uiux a {
+	color: #260101;
+	text-decoration: none;
+	font-size: 60px;
+	line-height: 250%;
+}
+
+.uiux a:hover {
+	color: #8C3D20;
+	font-size: 65px;
+	transition: 0.3s all ease-in-out;
+}
+
+@media only screen and (max-width: 414px) {
+    
+    .branding a {
+	color: #260101;
+	text-decoration: none;
+	font-size: 35px;
+	line-height: 250%;
+}
+
+.branding a:hover {
+	color: #8C3D20;
+	font-size: 45px;
+	transition: 0.3s all ease-in-out;
+}
+
+.illustrations a {
+	color: #260101;
+	text-decoration: none;
+	font-size: 35px;
+	line-height: 250%;
+}
+
+.illustrations a:hover {
+	color: #8C3D20;
+	font-size: 45px;
+	transition: 0.3s all ease-in-out;
+}
+
+.uiux a {
+	color: #260101;
+	text-decoration: none;
+	font-size: 35px;
+	line-height: 250%;
+}
+
+.uiux a:hover {
+	color: #8C3D20;
+	font-size: 45px;
+	transition: 0.3s all ease-in-out;
+}
+}

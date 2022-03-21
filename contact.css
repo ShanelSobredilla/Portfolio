@@ -1,0 +1,159 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.intro {
+  height: 100vh;
+  background: #E7DFD3;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 30px;
+}
+
+.logo {
+  font-family: newyork;
+  font-size: 20px;
+  color: #260101;
+  letter-spacing: 1px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #260101;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.navbar a {
+  font-family: urbanist;
+  font-size: 18px;
+  text-decoration: none;
+  color: #260101;
+}
+
+.projects a:hover {
+  color: #89442F;
+  text-decoration: underline;
+}
+
+.cv a:hover {
+  color: #89442F;
+  text-decoration: underline;
+}
+
+.contact a:hover {
+  color: #89442F;
+  text-decoration: underline;
+}
+
+.contactbody {
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+  -webkit-justify-content: center;
+    align-items: center;
+  -webkit-align-items: center;
+  background-color: #E7DFD3;
+}
+
+.contact-text {
+  margin-top: -15%;
+}
+
+.contact_title {
+    font-family: newyork;
+    text-align: center;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #260101;
+    /*transform: translateY(25%);
+    opacity: 0;
+    visibility: hidden;*/
+    transition: 0.6s all ease-in-out;
+}
+
+.contact_subtitle {
+	font-family: urbanist-semibold;
+    letter-spacing: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #8C3D20;    
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    /*transform: translateY(25%);
+    opacity: 0;
+    visibility: hidden;*/
+    transition: 0.4s all ease-in-out;
+}
+
+@media only screen and (max-width: 414px) {
+
+.intro {
+  height: 100vh;
+  background: #E7DFD3;
+}
+
+.logo {
+    font-family: newyork;
+    font-size: 16px;
+    color: #260101;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.navbar a {
+    font-family: urbanist;
+    font-size: 16px;
+    text-decoration: none;
+    color: #260101;
+}
+
+.contact_subtitle {
+    font-family: urbanist-semibold;
+    letter-spacing: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #8C3D20;    
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    /*transform: translateY(25%);
+    opacity: 0;
+    visibility: hidden;*/
+    transition: 0.4s all ease-in-out;
+}
+
+.contact_title {
+    font-family: newyork;
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #260101;
+    text-decoration: none;
+    transition: 0.4s all ease-in-out;
+
+}
